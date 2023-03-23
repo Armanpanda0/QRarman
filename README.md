@@ -8,10 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
-  
- 
-<body>
-	 <style>
+	<style>
     
 		/* Set default font-family */
     html, body {
@@ -136,6 +133,10 @@
     }
 	
   </style>
+  
+ 
+<body>
+	 
 	<div class="header">
 		<h1>Arman QR_Code Generator</h1>
 	</div>
@@ -170,7 +171,9 @@
 
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-<script>
+
+</body>
+	<script>
 	function updateRemainingChars() {
         var remainingChars = document.getElementById("remainingChars");
         var textInput = document.getElementById("textInput");
@@ -228,6 +231,5 @@
         alert("Error when generating a QR Code, please enter appropriate symbols.")
       }
     }</script>
-</body>
 	
 </html>

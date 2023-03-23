@@ -11,6 +11,128 @@
   
   <style>
     
+		/* Set default font-family */
+    html, body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Header */
+    .header {
+      background-color: #1E90FF;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+      margin-bottom: 7em;
+      border-radius: 10px;
+    }
+    
+    .header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    
+    /* Form */
+    .form-group {
+      margin-bottom: 20px;
+      display: flex;
+    }
+    
+    label {
+      margin-left: 10px;
+      display: block;
+      margin-bottom: 5px;
+      margin-right: 10px;
+    }
+    
+    /* Colors */
+    #textInput {
+      background-color: #F5F5F5;
+      border: none;
+      border-radius: 20px;
+      color: #333;
+      font-size: 16px;
+      height: 200px;
+      margin-bottom: 10px;
+      padding: 10px;
+      resize: none;
+      width: 100%;
+    }
+    
+    #textColor, #backgroundColor {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .remaining-chars {
+      color: #999;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    
+    /* Generate Button */
+    #generateBtn {
+      margin-top: 15px;
+      display: inline-block;
+      background-color: #1E90FF;
+      border: none;
+      border-radius: 50px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 16px 32px;
+      transition-duration: 0.4s;
+    }
+    
+    #generateBtn:hover {
+      background-color: #00BFFF;
+    }
+    
+    /* QR Code Canvas */
+    #qrCanvas {
+      background-color: #fff;
+      border-radius: 20px;
+      display: none;
+      height: 400px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      width: 100%;
+    }
+    
+    
+    /* Footer */
+    .footer {
+      margin-top: 50px;
+      height: 125px;
+      background-color: #F5F5F5;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .footer p {
+      color: #333;
+      font-size: 16px;
+      margin: 0;
+    }
+    
+    /* Rounded buttons */
+    button {
+      display: none;
+      background-color: #fff;
+      border: 1px solid #1E90FF;
+      border-radius: 50px;
+      color: #1E90FF;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 4px;
+      padding: 12px 24px;
+      transition-duration: 0.4s;
+    }
+    
+    button:hover {
+      background-color: #1E90FF;
+      color: #fff;
+    }
+	
   </style>
 <body>
 	<div class="header">
